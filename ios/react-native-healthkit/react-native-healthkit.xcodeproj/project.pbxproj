@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99AEE2821FCE000E007419BA /* react_native_healthkit.m in Sources */ = {isa = PBXBuildFile; fileRef = 99AEE2811FCE000E007419BA /* react_native_healthkit.m */; };
+		99AEE2831FCE000E007419BA /* react_native_healthkit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 99AEE2801FCE000E007419BA /* react_native_healthkit.h */; };
+		99AEE2B61FCF3F83007419BA /* HealthKitPermissions.m in Sources */ = {isa = PBXBuildFile; fileRef = 99AEE2B51FCF3F83007419BA /* HealthKitPermissions.m */; };
+		99AEE2B91FD08684007419BA /* HealthKitVitals.m in Sources */ = {isa = PBXBuildFile; fileRef = 99AEE2B81FD08684007419BA /* HealthKitVitals.m */; };
+		99AEE2BC1FD08912007419BA /* HealthKitUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 99AEE2BB1FD08912007419BA /* HealthKitUserInfo.m */; };
+		99AEE2BF1FD09215007419BA /* HealthKitUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 99AEE2BE1FD09215007419BA /* HealthKitUtils.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		99AEE27B1FCE000E007419BA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				99AEE2831FCE000E007419BA /* react_native_healthkit.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		99AEE27D1FCE000E007419BA /* libreact-native-healthkit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libreact-native-healthkit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99AEE2801FCE000E007419BA /* react_native_healthkit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = react_native_healthkit.h; sourceTree = "<group>"; };
+		99AEE2811FCE000E007419BA /* react_native_healthkit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = react_native_healthkit.m; sourceTree = "<group>"; };
+		99AEE2B41FCF3F83007419BA /* HealthKitPermissions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HealthKitPermissions.h; sourceTree = "<group>"; };
+		99AEE2B51FCF3F83007419BA /* HealthKitPermissions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HealthKitPermissions.m; sourceTree = "<group>"; };
+		99AEE2B71FD08684007419BA /* HealthKitVitals.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HealthKitVitals.h; sourceTree = "<group>"; };
+		99AEE2B81FD08684007419BA /* HealthKitVitals.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HealthKitVitals.m; sourceTree = "<group>"; };
+		99AEE2BA1FD08912007419BA /* HealthKitUserInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HealthKitUserInfo.h; sourceTree = "<group>"; };
+		99AEE2BB1FD08912007419BA /* HealthKitUserInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HealthKitUserInfo.m; sourceTree = "<group>"; };
+		99AEE2BD1FD09215007419BA /* HealthKitUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HealthKitUtils.h; sourceTree = "<group>"; };
+		99AEE2BE1FD09215007419BA /* HealthKitUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HealthKitUtils.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99AEE27A1FCE000E007419BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99AEE2741FCE000E007419BA = {
+			isa = PBXGroup;
+			children = (
+				99AEE27F1FCE000E007419BA /* react-native-healthkit */,
+				99AEE27E1FCE000E007419BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		99AEE27E1FCE000E007419BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99AEE27D1FCE000E007419BA /* libreact-native-healthkit.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99AEE27F1FCE000E007419BA /* react-native-healthkit */ = {
+			isa = PBXGroup;
+			children = (
+				99AEE2801FCE000E007419BA /* react_native_healthkit.h */,
+				99AEE2811FCE000E007419BA /* react_native_healthkit.m */,
+				99AEE2B41FCF3F83007419BA /* HealthKitPermissions.h */,
+				99AEE2B51FCF3F83007419BA /* HealthKitPermissions.m */,
+				99AEE2B71FD08684007419BA /* HealthKitVitals.h */,
+				99AEE2B81FD08684007419BA /* HealthKitVitals.m */,
+				99AEE2BA1FD08912007419BA /* HealthKitUserInfo.h */,
+				99AEE2BB1FD08912007419BA /* HealthKitUserInfo.m */,
+				99AEE2BD1FD09215007419BA /* HealthKitUtils.h */,
+				99AEE2BE1FD09215007419BA /* HealthKitUtils.m */,
+			);
+			path = "react-native-healthkit";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99AEE27C1FCE000E007419BA /* react-native-healthkit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99AEE2861FCE000E007419BA /* Build configuration list for PBXNativeTarget "react-native-healthkit" */;
+			buildPhases = (
+				99AEE2791FCE000E007419BA /* Sources */,
+				99AEE27A1FCE000E007419BA /* Frameworks */,
+				99AEE27B1FCE000E007419BA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "react-native-healthkit";
+			productName = "react-native-healthkit";
+			productReference = 99AEE27D1FCE000E007419BA /* libreact-native-healthkit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99AEE2751FCE000E007419BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "陈学伟";
+				TargetAttributes = {
+					99AEE27C1FCE000E007419BA = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 99AEE2781FCE000E007419BA /* Build configuration list for PBXProject "react-native-healthkit" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 99AEE2741FCE000E007419BA;
+			productRefGroup = 99AEE27E1FCE000E007419BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99AEE27C1FCE000E007419BA /* react-native-healthkit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99AEE2791FCE000E007419BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99AEE2821FCE000E007419BA /* react_native_healthkit.m in Sources */,
+				99AEE2B61FCF3F83007419BA /* HealthKitPermissions.m in Sources */,
+				99AEE2B91FD08684007419BA /* HealthKitVitals.m in Sources */,
+				99AEE2BC1FD08912007419BA /* HealthKitUserInfo.m in Sources */,
+				99AEE2BF1FD09215007419BA /* HealthKitUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		99AEE2841FCE000E007419BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		99AEE2851FCE000E007419BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99AEE2871FCE000E007419BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 878WUNEZP7;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../react-native/React/**";
+			};
+			name = Debug;
+		};
+		99AEE2881FCE000E007419BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 878WUNEZP7;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../react-native/React/**";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99AEE2781FCE000E007419BA /* Build configuration list for PBXProject "react-native-healthkit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99AEE2841FCE000E007419BA /* Debug */,
+				99AEE2851FCE000E007419BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99AEE2861FCE000E007419BA /* Build configuration list for PBXNativeTarget "react-native-healthkit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99AEE2871FCE000E007419BA /* Debug */,
+				99AEE2881FCE000E007419BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99AEE2751FCE000E007419BA /* Project object */;
+}
