@@ -2,4 +2,5 @@
 .DS_Store
 
 # project
-example/
+example/TestHealthKit/node_modules
+example/TestHealthKit/package-lock.json
