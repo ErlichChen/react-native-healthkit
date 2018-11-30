@@ -1,6 +1,6 @@
 {
   "name": "rn-healthkit",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "react native healthkit module, can save health data.",
   "main": "index.js",
   "directories": {

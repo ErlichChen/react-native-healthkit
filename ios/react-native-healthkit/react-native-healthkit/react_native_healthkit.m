@@ -35,6 +35,11 @@ RCT_EXPORT_MODULE(RNHealthKit);
     return self;
 }
 
++ (BOOL)requiresMainQueueSetup
+{
+    return NO;
+}
+
 RCT_EXPORT_METHOD(isSupportHealthKit:(RCTResponseSenderBlock)callback){
     
     if([self isSupportHealthKit]){

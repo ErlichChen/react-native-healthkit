@@ -15,7 +15,7 @@ import {
 import { RNHealthKit } from 'react-native-healthkit';
 
 
-export default class App extends Component<{}> {
+export default class App extends Component {
 
   onIsSupportHealthKit = () => {
     console.log('testisSupportHealthKit');
